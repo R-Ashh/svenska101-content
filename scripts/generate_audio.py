@@ -55,8 +55,7 @@ def collect_texts() -> list[str]:
                 for rule in chapter.get("rules", []):
                     texts.extend(example["swedish"] for example in rule.get("examples", []))
                 texts.extend(mistake["right"] for mistake in chapter.get("commonMistakes", []))
-                texts.extend(answer for item in chapter.get("practice", [])
-                             if item.get("type") != "choose" for answer in item.get("acceptedAnswers", [])[:1])
+                texts.extend(item["sentence"] for item in chapter.get("practice", []) if item.get("sentence"))
             for section in part.get("sections", []):
                 for entry in section.get("entries", []):
                     texts.append(speakable_word(entry["swedish"]))

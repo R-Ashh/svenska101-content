@@ -165,6 +165,7 @@
               "acceptedAnswers": [
                 "ett"
               ],
+              "sentence": "ett äpple",
               "options": [
                 "en",
                 "ett"
@@ -178,6 +179,7 @@
               "acceptedAnswers": [
                 "en"
               ],
+              "sentence": "en lägenhet",
               "options": [
                 "en",
                 "ett"
@@ -192,6 +194,7 @@
               "acceptedAnswers": [
                 "ett"
               ],
+              "sentence": "ett bord",
               "options": [
                 "en",
                 "ett"
@@ -205,6 +208,7 @@
               "acceptedAnswers": [
                 "en"
               ],
+              "sentence": "en station",
               "options": [
                 "en",
                 "ett"
@@ -380,7 +384,8 @@
               "answer": "stolen",
               "acceptedAnswers": [
                 "stolen"
-              ]
+              ],
+              "sentence": "en stol, stolen"
             },
             {
               "id": "g1.2-2",
@@ -390,6 +395,7 @@
               "acceptedAnswers": [
                 "rummet"
               ],
+              "sentence": "ett rum, rummet",
               "explanation": "Short vowel + m doubles the consonant: rum → rummet."
             },
             {
@@ -399,7 +405,8 @@
               "answer": "klockan",
               "acceptedAnswers": [
                 "klockan"
-              ]
+              ],
+              "sentence": "en klocka, klockan"
             },
             {
               "id": "g1.2-4",
@@ -408,7 +415,8 @@
               "answer": "Kaffet är varmt.",
               "acceptedAnswers": [
                 "Kaffet är varmt."
-              ]
+              ],
+              "sentence": "Kaffet är varmt."
             }
           ]
         },
@@ -614,7 +622,8 @@
               "answer": "kvinnor",
               "acceptedAnswers": [
                 "kvinnor"
-              ]
+              ],
+              "sentence": "en kvinna, två kvinnor"
             },
             {
               "id": "g1.3-2",
@@ -623,7 +632,8 @@
               "answer": "dagar",
               "acceptedAnswers": [
                 "dagar"
-              ]
+              ],
+              "sentence": "en dag, tre dagar"
             },
             {
               "id": "g1.3-3",
@@ -632,7 +642,8 @@
               "answer": "barn",
               "acceptedAnswers": [
                 "barn"
-              ]
+              ],
+              "sentence": "ett barn, fyra barn"
             },
             {
               "id": "g1.3-4",
@@ -641,7 +652,8 @@
               "answer": "telefoner",
               "acceptedAnswers": [
                 "telefoner"
-              ]
+              ],
+              "sentence": "en telefon, två telefoner"
             },
             {
               "id": "g1.3-5",
@@ -650,7 +662,8 @@
               "answer": "ställen",
               "acceptedAnswers": [
                 "ställen"
-              ]
+              ],
+              "sentence": "ett ställe, många ställen"
             }
           ]
         },
@@ -758,7 +771,8 @@
               "answer": "stolarna",
               "acceptedAnswers": [
                 "stolarna"
-              ]
+              ],
+              "sentence": "stolar, stolarna"
             },
             {
               "id": "g1.4-2",
@@ -767,7 +781,8 @@
               "answer": "borden",
               "acceptedAnswers": [
                 "borden"
-              ]
+              ],
+              "sentence": "bord, borden"
             },
             {
               "id": "g1.4-3",
@@ -776,7 +791,8 @@
               "answer": "mötena",
               "acceptedAnswers": [
                 "mötena"
-              ]
+              ],
+              "sentence": "möten, mötena"
             },
             {
               "id": "g1.4-4",
@@ -785,7 +801,8 @@
               "answer": "Böckerna ligger på bordet.",
               "acceptedAnswers": [
                 "Böckerna ligger på bordet."
-              ]
+              ],
+              "sentence": "Böckerna ligger på bordet."
             }
           ]
         },
@@ -891,7 +908,8 @@
               "answer": "den lilla hunden",
               "acceptedAnswers": [
                 "den lilla hunden"
-              ]
+              ],
+              "sentence": "den lilla hunden"
             },
             {
               "id": "g1.5-2",
@@ -900,7 +918,8 @@
               "answer": "det vita huset",
               "acceptedAnswers": [
                 "det vita huset"
-              ]
+              ],
+              "sentence": "det vita huset"
             },
             {
               "id": "g1.5-3",
@@ -909,7 +928,8 @@
               "answer": "de gamla vännerna",
               "acceptedAnswers": [
                 "de gamla vännerna"
-              ]
+              ],
+              "sentence": "de gamla vännerna"
             },
             {
               "id": "g1.5-4",
@@ -918,7 +938,8 @@
               "answer": "Jag gillar den svarta katten.",
               "acceptedAnswers": [
                 "Jag gillar den svarta katten."
-              ]
+              ],
+              "sentence": "Jag gillar den svarta katten."
             }
           ]
         },
@@ -991,7 +1012,8 @@
               "answer": "Marias hund",
               "acceptedAnswers": [
                 "Marias hund"
-              ]
+              ],
+              "sentence": "Marias hund"
             },
             {
               "id": "g1.6-2",
@@ -1000,7 +1022,8 @@
               "answer": "lärarens bok",
               "acceptedAnswers": [
                 "lärarens bok"
-              ]
+              ],
+              "sentence": "lärarens bok"
             },
             {
               "id": "g1.6-3",
@@ -1009,7 +1032,8 @@
               "answer": "Det är Peters hus.",
               "acceptedAnswers": [
                 "Det är Peters hus."
-              ]
+              ],
+              "sentence": "Det är Peters hus."
             }
           ]
         },
@@ -1099,6 +1123,7 @@
               "acceptedAnswers": [
                 "en"
               ],
+              "sentence": "en busshållplats",
               "options": [
                 "en",
                 "ett"
@@ -1112,6 +1137,7 @@
               "acceptedAnswers": [
                 "ett"
               ],
+              "sentence": "ett vardagsrum",
               "options": [
                 "en",
                 "ett"
@@ -1125,7 +1151,8 @@
               "answer": "skolbok",
               "acceptedAnswers": [
                 "skolbok"
-              ]
+              ],
+              "sentence": "skola + bok, skolbok"
             }
           ]
         }
@@ -1285,7 +1312,8 @@
               "answer": "mig",
               "acceptedAnswers": [
                 "mig"
-              ]
+              ],
+              "sentence": "Ring mig i kväll!"
             },
             {
               "id": "g2.1-2",
@@ -1294,7 +1322,8 @@
               "answer": "henne",
               "acceptedAnswers": [
                 "henne"
-              ]
+              ],
+              "sentence": "Jag känner henne inte."
             },
             {
               "id": "g2.1-3",
@@ -1304,6 +1333,7 @@
               "acceptedAnswers": [
                 "De"
               ],
+              "sentence": "De bor i Göteborg.",
               "options": [
                 "De",
                 "Dem"
@@ -1316,7 +1346,8 @@
               "answer": "Vi gillar dem.",
               "acceptedAnswers": [
                 "Vi gillar dem."
-              ]
+              ],
+              "sentence": "Vi gillar dem."
             }
           ]
         },
@@ -1406,6 +1437,7 @@
               "acceptedAnswers": [
                 "sin"
               ],
+              "sentence": "Maria glömde sin väska.",
               "options": [
                 "sin",
                 "hennes",
@@ -1420,6 +1452,7 @@
               "acceptedAnswers": [
                 "sina"
               ],
+              "sentence": "De besöker sina föräldrar.",
               "options": [
                 "deras",
                 "sina",
@@ -1434,6 +1467,7 @@
               "acceptedAnswers": [
                 "Hans"
               ],
+              "sentence": "Hans syster heter Lisa.",
               "options": [
                 "Sin",
                 "Hans"
@@ -1446,7 +1480,8 @@
               "answer": "sitt",
               "acceptedAnswers": [
                 "sitt"
-              ]
+              ],
+              "sentence": "Pelle målar sitt rum."
             }
           ]
         },
@@ -1546,7 +1581,8 @@
               "answer": "sig",
               "acceptedAnswers": [
                 "sig"
-              ]
+              ],
+              "sentence": "De gifte sig i somras."
             },
             {
               "id": "g2.3-2",
@@ -1555,7 +1591,8 @@
               "answer": "dig",
               "acceptedAnswers": [
                 "dig"
-              ]
+              ],
+              "sentence": "Skynda dig!"
             },
             {
               "id": "g2.3-3",
@@ -1564,7 +1601,8 @@
               "answer": "oss",
               "acceptedAnswers": [
                 "oss"
-              ]
+              ],
+              "sentence": "Vi har roligt. Vi roar oss."
             }
           ]
         },
@@ -1670,7 +1708,8 @@
               "answer": "det här äpplet",
               "acceptedAnswers": [
                 "det här äpplet"
-              ]
+              ],
+              "sentence": "det här äpplet"
             },
             {
               "id": "g2.4-2",
@@ -1679,7 +1718,8 @@
               "answer": "de där stolarna",
               "acceptedAnswers": [
                 "de där stolarna"
-              ]
+              ],
+              "sentence": "de där stolarna"
             },
             {
               "id": "g2.4-3",
@@ -1688,7 +1728,8 @@
               "answer": "Det här är min bil.",
               "acceptedAnswers": [
                 "Det här är min bil."
-              ]
+              ],
+              "sentence": "Det här är min bil."
             }
           ]
         },
@@ -1787,7 +1828,8 @@
               "answer": "Finns det ett apotek här i närheten?",
               "acceptedAnswers": [
                 "Finns det ett apotek här i närheten?"
-              ]
+              ],
+              "sentence": "Finns det ett apotek här i närheten?"
             },
             {
               "id": "g2.5-2",
@@ -1796,7 +1838,8 @@
               "answer": "Det snöar.",
               "acceptedAnswers": [
                 "Det snöar."
-              ]
+              ],
+              "sentence": "Det snöar."
             },
             {
               "id": "g2.5-3",
@@ -1805,7 +1848,8 @@
               "answer": "Man äter mycket fisk i Sverige.",
               "acceptedAnswers": [
                 "Man äter mycket fisk i Sverige."
-              ]
+              ],
+              "sentence": "Man äter mycket fisk i Sverige."
             }
           ]
         },
@@ -1935,6 +1979,7 @@
               "acceptedAnswers": [
                 "någon"
               ],
+              "sentence": "Är någon hemma?",
               "options": [
                 "någon",
                 "något",
@@ -1949,6 +1994,7 @@
               "acceptedAnswers": [
                 "inga"
               ],
+              "sentence": "Det finns inga problem.",
               "options": [
                 "ingen",
                 "inget",
@@ -1962,7 +2008,8 @@
               "answer": "Vi har inte köpt någonting.",
               "acceptedAnswers": [
                 "Vi har inte köpt någonting."
-              ]
+              ],
+              "sentence": "Vi har inte köpt någonting."
             }
           ]
         }
@@ -2188,7 +2235,8 @@
               "answer": "nytt",
               "acceptedAnswers": [
                 "nytt"
-              ]
+              ],
+              "sentence": "ett nytt hus"
             },
             {
               "id": "g3.1-2",
@@ -2197,7 +2245,8 @@
               "answer": "god",
               "acceptedAnswers": [
                 "god"
-              ]
+              ],
+              "sentence": "Maten är god ."
             },
             {
               "id": "g3.1-3",
@@ -2206,7 +2255,8 @@
               "answer": "glada",
               "acceptedAnswers": [
                 "glada"
-              ]
+              ],
+              "sentence": "Barnen är glada ."
             },
             {
               "id": "g3.1-4",
@@ -2215,7 +2265,8 @@
               "answer": "dåligt",
               "acceptedAnswers": [
                 "dåligt"
-              ]
+              ],
+              "sentence": "Vädret är dåligt ."
             }
           ]
         },
@@ -2298,7 +2349,8 @@
               "answer": "vita",
               "acceptedAnswers": [
                 "vita"
-              ]
+              ],
+              "sentence": "det vita huset"
             },
             {
               "id": "g3.2-2",
@@ -2307,7 +2359,8 @@
               "answer": "lilla",
               "acceptedAnswers": [
                 "lilla"
-              ]
+              ],
+              "sentence": "hennes lilla syster"
             },
             {
               "id": "g3.2-3",
@@ -2316,7 +2369,8 @@
               "answer": "mina gamla vänner",
               "acceptedAnswers": [
                 "mina gamla vänner"
-              ]
+              ],
+              "sentence": "mina gamla vänner"
             }
           ]
         },
@@ -2556,7 +2610,8 @@
               "answer": "större",
               "acceptedAnswers": [
                 "större"
-              ]
+              ],
+              "sentence": "Sverige är större än Danmark."
             },
             {
               "id": "g3.3-2",
@@ -2565,7 +2620,8 @@
               "answer": "godare",
               "acceptedAnswers": [
                 "godare"
-              ]
+              ],
+              "sentence": "Det här kaffet är godare än det andra."
             },
             {
               "id": "g3.3-3",
@@ -2574,7 +2630,8 @@
               "answer": "yngst",
               "acceptedAnswers": [
                 "yngst"
-              ]
+              ],
+              "sentence": "Han är yngst i klassen."
             },
             {
               "id": "g3.3-4",
@@ -2583,7 +2640,8 @@
               "answer": "Det är värre i dag.",
               "acceptedAnswers": [
                 "Det är värre i dag."
-              ]
+              ],
+              "sentence": "Det är värre i dag."
             }
           ]
         },
@@ -2668,7 +2726,8 @@
               "answer": "den längsta dagen",
               "acceptedAnswers": [
                 "den längsta dagen"
-              ]
+              ],
+              "sentence": "den längsta dagen"
             },
             {
               "id": "g3.4-2",
@@ -2677,7 +2736,8 @@
               "answer": "det vackraste huset",
               "acceptedAnswers": [
                 "det vackraste huset"
-              ]
+              ],
+              "sentence": "det vackraste huset"
             },
             {
               "id": "g3.4-3",
@@ -2686,7 +2746,8 @@
               "answer": "min bästa vän",
               "acceptedAnswers": [
                 "min bästa vän"
-              ]
+              ],
+              "sentence": "min bästa vän"
             }
           ]
         },
@@ -2796,7 +2857,8 @@
               "answer": "vackert",
               "acceptedAnswers": [
                 "vackert"
-              ]
+              ],
+              "sentence": "Han sjunger vackert ."
             },
             {
               "id": "g3.5-2",
@@ -2805,7 +2867,8 @@
               "answer": "lugnt",
               "acceptedAnswers": [
                 "lugnt"
-              ]
+              ],
+              "sentence": "Barnen sover lugnt ."
             },
             {
               "id": "g3.5-3",
@@ -2814,7 +2877,8 @@
               "answer": "Jag sov dåligt.",
               "acceptedAnswers": [
                 "Jag sov dåligt."
-              ]
+              ],
+              "sentence": "Jag sov dåligt."
             }
           ]
         }
@@ -3026,7 +3090,8 @@
               "answer": "dansar",
               "acceptedAnswers": [
                 "dansar"
-              ]
+              ],
+              "sentence": "Hon dansar varje lördag."
             },
             {
               "id": "g4.1-2",
@@ -3035,7 +3100,8 @@
               "answer": "läser",
               "acceptedAnswers": [
                 "läser"
-              ]
+              ],
+              "sentence": "Vi läser en bok."
             },
             {
               "id": "g4.1-3",
@@ -3044,7 +3110,8 @@
               "answer": "tror",
               "acceptedAnswers": [
                 "tror"
-              ]
+              ],
+              "sentence": "De tror på dig."
             },
             {
               "id": "g4.1-4",
@@ -3053,7 +3120,8 @@
               "answer": "hör",
               "acceptedAnswers": [
                 "hör"
-              ]
+              ],
+              "sentence": "Jag hör musik."
             }
           ]
         },
@@ -3174,7 +3242,8 @@
               "answer": "Vänta",
               "acceptedAnswers": [
                 "Vänta"
-              ]
+              ],
+              "sentence": "Vänta här!"
             },
             {
               "id": "g4.2-2",
@@ -3183,7 +3252,8 @@
               "answer": "Läs",
               "acceptedAnswers": [
                 "Läs"
-              ]
+              ],
+              "sentence": "Läs boken!"
             },
             {
               "id": "g4.2-3",
@@ -3192,7 +3262,8 @@
               "answer": "Oroa dig inte!",
               "acceptedAnswers": [
                 "Oroa dig inte!"
-              ]
+              ],
+              "sentence": "Oroa dig inte!"
             }
           ]
         },
@@ -3341,7 +3412,8 @@
               "answer": "arbetade",
               "acceptedAnswers": [
                 "arbetade"
-              ]
+              ],
+              "sentence": "I går arbetade jag hemma."
             },
             {
               "id": "g4.3-2",
@@ -3350,7 +3422,8 @@
               "answer": "reste",
               "acceptedAnswers": [
                 "reste"
-              ]
+              ],
+              "sentence": "Hon reste till Norge."
             },
             {
               "id": "g4.3-3",
@@ -3359,7 +3432,8 @@
               "answer": "trodde",
               "acceptedAnswers": [
                 "trodde"
-              ]
+              ],
+              "sentence": "Vi trodde inte på honom."
             },
             {
               "id": "g4.3-4",
@@ -3368,7 +3442,8 @@
               "answer": "såg",
               "acceptedAnswers": [
                 "såg"
-              ]
+              ],
+              "sentence": "Jag såg filmen."
             }
           ]
         },
@@ -3503,7 +3578,8 @@
               "answer": "gjort",
               "acceptedAnswers": [
                 "gjort"
-              ]
+              ],
+              "sentence": "Har du gjort läxan?"
             },
             {
               "id": "g4.4-2",
@@ -3512,7 +3588,8 @@
               "answer": "rest",
               "acceptedAnswers": [
                 "rest"
-              ]
+              ],
+              "sentence": "Vi har rest mycket."
             },
             {
               "id": "g4.4-3",
@@ -3521,7 +3598,8 @@
               "answer": "sovit",
               "acceptedAnswers": [
                 "sovit"
-              ]
+              ],
+              "sentence": "Hon hade sovit dåligt."
             },
             {
               "id": "g4.4-4",
@@ -3531,6 +3609,7 @@
               "acceptedAnswers": [
                 "var"
               ],
+              "sentence": "Jag var i Paris 2019.",
               "options": [
                 "har varit",
                 "var"
@@ -3607,6 +3686,7 @@
               "acceptedAnswers": [
                 "ska"
               ],
+              "sentence": "Jag ska ringa mamma i kväll.",
               "options": [
                 "ska",
                 "kommer att"
@@ -3620,6 +3700,7 @@
               "acceptedAnswers": [
                 "kommer att"
               ],
+              "sentence": "Priserna kommer att stiga.",
               "options": [
                 "ska",
                 "kommer att"
@@ -3632,7 +3713,8 @@
               "answer": "Vi ska köpa ett hus.",
               "acceptedAnswers": [
                 "Vi ska köpa ett hus."
-              ]
+              ],
+              "sentence": "Vi ska köpa ett hus."
             }
           ]
         },
@@ -3798,6 +3880,7 @@
               "acceptedAnswers": [
                 "behöver inte"
               ],
+              "sentence": "Du behöver inte betala, det är gratis.",
               "options": [
                 "får inte",
                 "behöver inte"
@@ -3810,7 +3893,8 @@
               "answer": "Jag vill åka hem.",
               "acceptedAnswers": [
                 "Jag vill åka hem."
-              ]
+              ],
+              "sentence": "Jag vill åka hem."
             },
             {
               "id": "g4.6-3",
@@ -3819,7 +3903,8 @@
               "answer": "Vi brukar äta klockan sex.",
               "acceptedAnswers": [
                 "Vi brukar äta klockan sex."
-              ]
+              ],
+              "sentence": "Vi brukar äta klockan sex."
             }
           ]
         },
@@ -4215,7 +4300,8 @@
               "answer": "sprang",
               "acceptedAnswers": [
                 "sprang"
-              ]
+              ],
+              "sentence": "Barnen sprang till skolan."
             },
             {
               "id": "g4.7-2",
@@ -4224,7 +4310,8 @@
               "answer": "flugit",
               "acceptedAnswers": [
                 "flugit"
-              ]
+              ],
+              "sentence": "Jag har flugit till Thailand."
             },
             {
               "id": "g4.7-3",
@@ -4233,7 +4320,8 @@
               "answer": "blev",
               "acceptedAnswers": [
                 "blev"
-              ]
+              ],
+              "sentence": "Hon blev arg."
             },
             {
               "id": "g4.7-4",
@@ -4242,7 +4330,8 @@
               "answer": "sålt",
               "acceptedAnswers": [
                 "sålt"
-              ]
+              ],
+              "sentence": "Vi har sålt bilen."
             }
           ]
         },
@@ -4384,7 +4473,8 @@
               "answer": "dig",
               "acceptedAnswers": [
                 "dig"
-              ]
+              ],
+              "sentence": "Sätt dig här!"
             },
             {
               "id": "g4.8-2",
@@ -4393,7 +4483,8 @@
               "answer": "oss",
               "acceptedAnswers": [
                 "oss"
-              ]
+              ],
+              "sentence": "Vi gifte oss förra året."
             },
             {
               "id": "g4.8-3",
@@ -4402,7 +4493,8 @@
               "answer": "Jag lägger mig klockan elva.",
               "acceptedAnswers": [
                 "Jag lägger mig klockan elva."
-              ]
+              ],
+              "sentence": "Jag lägger mig klockan elva."
             }
           ]
         },
@@ -4566,7 +4658,8 @@
               "answer": "Tycker du om kaffe?",
               "acceptedAnswers": [
                 "Tycker du om kaffe?"
-              ]
+              ],
+              "sentence": "Tycker du om kaffe?"
             },
             {
               "id": "g4.9-2",
@@ -4575,7 +4668,8 @@
               "answer": "Jag håller med dig.",
               "acceptedAnswers": [
                 "Jag håller med dig."
-              ]
+              ],
+              "sentence": "Jag håller med dig."
             },
             {
               "id": "g4.9-3",
@@ -4584,7 +4678,8 @@
               "answer": "Ge inte upp!",
               "acceptedAnswers": [
                 "Ge inte upp!"
-              ]
+              ],
+              "sentence": "Ge inte upp!"
             }
           ]
         },
@@ -4718,7 +4813,8 @@
               "answer": "talas",
               "acceptedAnswers": [
                 "talas"
-              ]
+              ],
+              "sentence": "Svenska talas i Sverige och Finland."
             },
             {
               "id": "g4.10-2",
@@ -4727,7 +4823,8 @@
               "answer": "skrevs",
               "acceptedAnswers": [
                 "skrevs"
-              ]
+              ],
+              "sentence": "Brevet skrevs i går."
             },
             {
               "id": "g4.10-3",
@@ -4736,7 +4833,8 @@
               "answer": "Fönstret öppnades.",
               "acceptedAnswers": [
                 "Fönstret öppnades."
-              ]
+              ],
+              "sentence": "Fönstret öppnades."
             }
           ]
         },
@@ -4886,7 +4984,8 @@
               "answer": "finns",
               "acceptedAnswers": [
                 "finns"
-              ]
+              ],
+              "sentence": "Det finns ingen mjölk kvar."
             },
             {
               "id": "g4.11-2",
@@ -4895,7 +4994,8 @@
               "answer": "lyckades",
               "acceptedAnswers": [
                 "lyckades"
-              ]
+              ],
+              "sentence": "Hon lyckades med provet i går."
             },
             {
               "id": "g4.11-3",
@@ -4904,7 +5004,8 @@
               "answer": "Trivs du här?",
               "acceptedAnswers": [
                 "Trivs du här?"
-              ]
+              ],
+              "sentence": "Trivs du här?"
             }
           ]
         },
@@ -5033,7 +5134,8 @@
               "answer": "tvättade",
               "acceptedAnswers": [
                 "tvättade"
-              ]
+              ],
+              "sentence": "Bilarna är tvättade ."
             },
             {
               "id": "g4.12-2",
@@ -5042,7 +5144,8 @@
               "answer": "sålt",
               "acceptedAnswers": [
                 "sålt"
-              ]
+              ],
+              "sentence": "Huset är sålt ."
             },
             {
               "id": "g4.12-3",
@@ -5051,7 +5154,8 @@
               "answer": "spännande",
               "acceptedAnswers": [
                 "spännande"
-              ]
+              ],
+              "sentence": "en spännande film"
             }
           ]
         },
@@ -5152,7 +5256,8 @@
               "acceptedAnswers": [
                 "vore",
                 "var"
-              ]
+              ],
+              "sentence": "Om jag vore rik, skulle jag resa jorden runt."
             },
             {
               "id": "g4.13-2",
@@ -5161,7 +5266,8 @@
               "answer": "Jag skulle vilja betala, tack.",
               "acceptedAnswers": [
                 "Jag skulle vilja betala, tack."
-              ]
+              ],
+              "sentence": "Jag skulle vilja betala, tack."
             },
             {
               "id": "g4.13-3",
@@ -5170,7 +5276,8 @@
               "answer": "Om jag har tid kommer jag.",
               "acceptedAnswers": [
                 "Om jag har tid kommer jag."
-              ]
+              ],
+              "sentence": "Om jag har tid kommer jag."
             }
           ]
         },
@@ -5281,6 +5388,7 @@
               "acceptedAnswers": [
                 "— (nothing)"
               ],
+              "sentence": "Vi ska resa.",
               "options": [
                 "att",
                 "— (nothing)"
@@ -5293,7 +5401,8 @@
               "answer": "Tack för att du hjälpte mig!",
               "acceptedAnswers": [
                 "Tack för att du hjälpte mig!"
-              ]
+              ],
+              "sentence": "Tack för att du hjälpte mig!"
             },
             {
               "id": "g4.14-3",
@@ -5302,7 +5411,8 @@
               "answer": "Jag sparar pengar för att köpa en bil.",
               "acceptedAnswers": [
                 "Jag sparar pengar för att köpa en bil."
-              ]
+              ],
+              "sentence": "Jag sparar pengar för att köpa en bil."
             }
           ]
         },
@@ -5386,7 +5496,8 @@
               "answer": "Vi stod och pratade.",
               "acceptedAnswers": [
                 "Vi stod och pratade."
-              ]
+              ],
+              "sentence": "Vi stod och pratade."
             },
             {
               "id": "g4.15-2",
@@ -5395,7 +5506,8 @@
               "answer": "Jag håller på att flytta.",
               "acceptedAnswers": [
                 "Jag håller på att flytta."
-              ]
+              ],
+              "sentence": "Jag håller på att flytta."
             }
           ]
         }
@@ -5540,7 +5652,8 @@
               "answer": "På morgonen dricker jag kaffe.",
               "acceptedAnswers": [
                 "På morgonen dricker jag kaffe."
-              ]
+              ],
+              "sentence": "På morgonen dricker jag kaffe."
             },
             {
               "id": "g5.1-2",
@@ -5549,7 +5662,8 @@
               "answer": "I morgon åker vi till Uppsala.",
               "acceptedAnswers": [
                 "I morgon åker vi till Uppsala."
-              ]
+              ],
+              "sentence": "I morgon åker vi till Uppsala."
             },
             {
               "id": "g5.1-3",
@@ -5558,7 +5672,8 @@
               "answer": "När han kommer, äter vi.",
               "acceptedAnswers": [
                 "När han kommer, äter vi."
-              ]
+              ],
+              "sentence": "När han kommer, äter vi."
             }
           ]
         },
@@ -5663,7 +5778,8 @@
               "answer": "När går tåget?",
               "acceptedAnswers": [
                 "När går tåget?"
-              ]
+              ],
+              "sentence": "När går tåget?"
             },
             {
               "id": "g5.2-2",
@@ -5672,7 +5788,8 @@
               "answer": "Vem bor här?",
               "acceptedAnswers": [
                 "Vem bor här?"
-              ]
+              ],
+              "sentence": "Vem bor här?"
             },
             {
               "id": "g5.2-3",
@@ -5682,6 +5799,7 @@
               "acceptedAnswers": [
                 "Vart"
               ],
+              "sentence": "Vart åker du i sommar?",
               "options": [
                 "Var",
                 "Vart"
@@ -5796,7 +5914,8 @@
               "answer": "Jag talar inte tyska.",
               "acceptedAnswers": [
                 "Jag talar inte tyska."
-              ]
+              ],
+              "sentence": "Jag talar inte tyska."
             },
             {
               "id": "g5.3-2",
@@ -5805,7 +5924,8 @@
               "answer": "I kväll ska vi inte gå ut.",
               "acceptedAnswers": [
                 "I kväll ska vi inte gå ut."
-              ]
+              ],
+              "sentence": "I kväll ska vi inte gå ut."
             },
             {
               "id": "g5.3-3",
@@ -5814,7 +5934,8 @@
               "answer": "Jag har aldrig varit i Kiruna.",
               "acceptedAnswers": [
                 "Jag har aldrig varit i Kiruna."
-              ]
+              ],
+              "sentence": "Jag har aldrig varit i Kiruna."
             }
           ]
         },
@@ -5997,7 +6118,8 @@
               "answer": "Hon säger att hon inte har tid.",
               "acceptedAnswers": [
                 "Hon säger att hon inte har tid."
-              ]
+              ],
+              "sentence": "Combine: Hon säger något. Hon har inte tid., Hon säger att Hon säger att hon inte har tid."
             },
             {
               "id": "g5.4-2",
@@ -6006,7 +6128,8 @@
               "answer": "Jag är glad eftersom jag inte har jobbat i dag.",
               "acceptedAnswers": [
                 "Jag är glad eftersom jag inte har jobbat i dag."
-              ]
+              ],
+              "sentence": "Jag är glad eftersom jag inte har jobbat i dag."
             },
             {
               "id": "g5.4-3",
@@ -6015,7 +6138,8 @@
               "answer": "Jag undrar om du kan komma.",
               "acceptedAnswers": [
                 "Jag undrar om du kan komma."
-              ]
+              ],
+              "sentence": "Jag undrar om du kan komma."
             }
           ]
         },
@@ -6093,6 +6217,7 @@
               "acceptedAnswers": [
                 "för"
               ],
+              "sentence": "Jag tar bussen, för jag har ingen bil.",
               "options": [
                 "för",
                 "eftersom"
@@ -6106,7 +6231,8 @@
               "answer": "Hon är trött, men hon är glad.",
               "acceptedAnswers": [
                 "Hon är trött, men hon är glad."
-              ]
+              ],
+              "sentence": "Hon är trött, men hon är glad."
             }
           ]
         },
@@ -6207,7 +6333,8 @@
               "acceptedAnswers": [
                 "som",
                 ""
-              ]
+              ],
+              "sentence": "Det är kvinnan som jag träffade i går."
             },
             {
               "id": "g5.6-2",
@@ -6216,7 +6343,8 @@
               "answer": "Restaurangen där vi åt var bra.",
               "acceptedAnswers": [
                 "Restaurangen där vi åt var bra."
-              ]
+              ],
+              "sentence": "Restaurangen där vi åt var bra."
             },
             {
               "id": "g5.6-3",
@@ -6226,7 +6354,8 @@
               "acceptedAnswers": [
                 "Det är vännen som jag berättade om.",
                 "Det är vännen jag berättade om."
-              ]
+              ],
+              "sentence": "Det är vännen som jag berättade om."
             }
           ]
         },
@@ -6321,7 +6450,8 @@
               "answer": "Vet du när filmen börjar?",
               "acceptedAnswers": [
                 "Vet du när filmen börjar?"
-              ]
+              ],
+              "sentence": "Make it indirect: När börjar filmen?, Vet du Vet du när filmen börjar?"
             },
             {
               "id": "g5.7-2",
@@ -6330,7 +6460,8 @@
               "answer": "Jag undrar om hon kommer.",
               "acceptedAnswers": [
                 "Jag undrar om hon kommer."
-              ]
+              ],
+              "sentence": "Make it indirect: Kommer hon?, Jag undrar Jag undrar om hon kommer."
             },
             {
               "id": "g5.7-3",
@@ -6339,7 +6470,8 @@
               "answer": "Ingen vet vad som hände.",
               "acceptedAnswers": [
                 "Ingen vet vad som hände."
-              ]
+              ],
+              "sentence": "Make it indirect: Vad hände?, Ingen vet Ingen vet vad som hände."
             }
           ]
         },
@@ -6416,7 +6548,8 @@
               "answer": "Det var min bror som betalade.",
               "acceptedAnswers": [
                 "Det var min bror som betalade."
-              ]
+              ],
+              "sentence": "Det var min bror som betalade."
             },
             {
               "id": "g5.8-2",
@@ -6426,7 +6559,8 @@
               "acceptedAnswers": [
                 "Vad är det som du vill?",
                 "Vad är det du vill?"
-              ]
+              ],
+              "sentence": "Vad är det som du vill?"
             }
           ]
         }
@@ -6572,6 +6706,7 @@
               "acceptedAnswers": [
                 "på"
               ],
+              "sentence": "Hon jobbar på ett sjukhus.",
               "options": [
                 "i",
                 "på"
@@ -6585,6 +6720,7 @@
               "acceptedAnswers": [
                 "i"
               ],
+              "sentence": "Vi bor i Norge.",
               "options": [
                 "i",
                 "på"
@@ -6598,6 +6734,7 @@
               "acceptedAnswers": [
                 "på"
               ],
+              "sentence": "Tavlan hänger på väggen.",
               "options": [
                 "i",
                 "på"
@@ -6782,6 +6919,7 @@
               "acceptedAnswers": [
                 "om"
               ],
+              "sentence": "Jag kommer tillbaka om en timme.",
               "options": [
                 "i",
                 "om",
@@ -6795,7 +6933,8 @@
               "answer": "Jag började lära mig svenska för två månader sedan.",
               "acceptedAnswers": [
                 "Jag började lära mig svenska för två månader sedan."
-              ]
+              ],
+              "sentence": "Jag började lära mig svenska för två månader sedan."
             },
             {
               "id": "g6.2-3",
@@ -6804,7 +6943,8 @@
               "answer": "Vad gör du i helgen?",
               "acceptedAnswers": [
                 "Vad gör du i helgen?"
-              ]
+              ],
+              "sentence": "Vad gör du i helgen?"
             }
           ]
         },
@@ -6938,6 +7078,7 @@
               "acceptedAnswers": [
                 "ute"
               ],
+              "sentence": "Barnen leker ute .",
               "options": [
                 "ut",
                 "ute"
@@ -6951,6 +7092,7 @@
               "acceptedAnswers": [
                 "dit"
               ],
+              "sentence": "Vi åker dit i morgon.",
               "options": [
                 "dit",
                 "där"
@@ -6964,6 +7106,7 @@
               "acceptedAnswers": [
                 "upp"
               ],
+              "sentence": "Hon gick upp till sitt rum.",
               "options": [
                 "upp",
                 "uppe"
@@ -7075,6 +7218,7 @@
               "acceptedAnswers": [
                 "ligger"
               ],
+              "sentence": "Var ligger Göteborg?",
               "options": [
                 "ligger",
                 "lägger"
@@ -7088,6 +7232,7 @@
               "acceptedAnswers": [
                 "ställa"
               ],
+              "sentence": "Kan du ställa glasen på bordet?",
               "options": [
                 "stå",
                 "ställa"
@@ -7100,7 +7245,8 @@
               "answer": "Jag lade mig tidigt.",
               "acceptedAnswers": [
                 "Jag lade mig tidigt."
-              ]
+              ],
+              "sentence": "Jag lade mig tidigt."
             }
           ]
         },
@@ -7338,7 +7484,8 @@
               "answer": "Klockan är halv åtta.",
               "acceptedAnswers": [
                 "Klockan är halv åtta."
-              ]
+              ],
+              "sentence": "Klockan är halv åtta."
             },
             {
               "id": "g6.5-2",
@@ -7347,7 +7494,8 @@
               "answer": "tjugo i fem",
               "acceptedAnswers": [
                 "tjugo i fem"
-              ]
+              ],
+              "sentence": "tjugo i fem"
             },
             {
               "id": "g6.5-3",
@@ -7356,7 +7504,8 @@
               "answer": "första",
               "acceptedAnswers": [
                 "första"
-              ]
+              ],
+              "sentence": "Write in words: the 1st of May, den första maj"
             }
           ]
         },
@@ -7483,6 +7632,7 @@
               "acceptedAnswers": [
                 "Jo"
               ],
+              "sentence": "Har du inte varit i Sverige? – Jo, två gånger!",
               "options": [
                 "Ja",
                 "Jo",
@@ -7497,6 +7647,7 @@
               "acceptedAnswers": [
                 "nog"
               ],
+              "sentence": "Det blir nog bra.",
               "options": [
                 "ju",
                 "nog",
@@ -7628,7 +7779,8 @@
               "answer": "Jag såg någon där.",
               "acceptedAnswers": [
                 "Jag såg någon där."
-              ]
+              ],
+              "sentence": "Jag såg någon där."
             },
             {
               "id": "g7.1-2",
@@ -7637,7 +7789,8 @@
               "answer": "Han sa att de kommer sedan.",
               "acceptedAnswers": [
                 "Han sa att de kommer sedan."
-              ]
+              ],
+              "sentence": "Han sa att de kommer sedan."
             }
           ]
         },
@@ -7796,7 +7949,8 @@
               "answer": "omöjlig",
               "acceptedAnswers": [
                 "omöjlig"
-              ]
+              ],
+              "sentence": "möjlig, omöjlig"
             },
             {
               "id": "g7.2-2",
@@ -7805,7 +7959,8 @@
               "answer": "spelare",
               "acceptedAnswers": [
                 "spelare"
-              ]
+              ],
+              "sentence": "spela, spelare"
             },
             {
               "id": "g7.2-3",
@@ -7814,7 +7969,8 @@
               "answer": "trygghet",
               "acceptedAnswers": [
                 "trygghet"
-              ]
+              ],
+              "sentence": "trygg, trygghet"
             }
           ]
         },
@@ -7968,6 +8124,7 @@
               "acceptedAnswers": [
                 "tycker"
               ],
+              "sentence": "Vad tycker du om maten?",
               "options": [
                 "tycker",
                 "tror",
@@ -7982,6 +8139,7 @@
               "acceptedAnswers": [
                 "Vet"
               ],
+              "sentence": "Vet du vad klockan är?",
               "options": [
                 "Vet",
                 "Känner",
@@ -7996,6 +8154,7 @@
               "acceptedAnswers": [
                 "åker"
               ],
+              "sentence": "Vi åker tåg till Stockholm.",
               "options": [
                 "går",
                 "åker",
@@ -8115,7 +8274,8 @@
               "answer": "I morgon ska jag åka till min mammas hus.",
               "acceptedAnswers": [
                 "I morgon ska jag åka till min mammas hus."
-              ]
+              ],
+              "sentence": "I morgon ska jag åka till min mammas hus."
             },
             {
               "id": "g7.4-2",
@@ -8124,7 +8284,8 @@
               "answer": "Han säger att han inte vill jobba.",
               "acceptedAnswers": [
                 "Han säger att han inte vill jobba."
-              ]
+              ],
+              "sentence": "Han säger att han inte vill jobba."
             },
             {
               "id": "g7.4-3",
@@ -8133,7 +8294,8 @@
               "answer": "Jag har bott i Sverige i ett år och jag tycker mycket om det.",
               "acceptedAnswers": [
                 "Jag har bott i Sverige i ett år och jag tycker mycket om det."
-              ]
+              ],
+              "sentence": "Jag har bott i Sverige i ett år och jag tycker mycket om det."
             }
           ]
         }

@@ -50,6 +50,24 @@ def accepted_answers(item: dict) -> list[str]:
     return [answer]
 
 
+def full_sentence(item: dict, accepted: list[str]) -> str:
+    """The complete Swedish sentence for an item — shown and read aloud after answering.
+
+    Gap items get the answer filled in and hint brackets removed:
+      "Om jag ___ (vara) rik, …"  → "Om jag vore rik, …"
+      "en stol → ___ (the chair)" → "en stol, stolen"
+    """
+    if item["type"] not in ("fill_in", "choose") or "___" not in item["prompt"]:
+        return accepted[0]
+    gap = accepted[0]
+    if gap.startswith("—"):  # "— (nothing)": the gap stays empty
+        gap = ""
+    sentence = item["prompt"].replace("___", gap)
+    sentence = re.sub(r"\s*\([^)]*\)", "", sentence)
+    sentence = sentence.replace(" → ", ", ").replace("→", ",")
+    return re.sub(r"\s{2,}", " ", sentence).strip()
+
+
 def convert(source: dict, book_id: str) -> dict:
     guide = source.get("pronunciation_guide", {})
     key = " · ".join(f"{sound} = {meaning}" for sound, meaning in guide.get("key", {}).items())
@@ -59,12 +77,14 @@ def convert(source: dict, book_id: str) -> dict:
         for chapter in part["chapters"]:
             practice = []
             for index, item in enumerate(chapter.get("practice", []), 1):
+                accepted = accepted_answers(item)
                 converted = {
                     "id": f"g{chapter['id']}-{index}",
                     "type": item["type"],
                     "prompt": item["prompt"],
                     "answer": item["answer"],
-                    "acceptedAnswers": accepted_answers(item),
+                    "acceptedAnswers": accepted,
+                    "sentence": full_sentence(item, accepted),
                 }
                 if item.get("options"):
                     converted["options"] = item["options"]
