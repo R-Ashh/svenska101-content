@@ -11,6 +11,8 @@ picks it up the next time it opens (or when you pull down on the Learn tab).
 | Path | What it is |
 | --- | --- |
 | `books/essential-650.json` | The vocabulary book (words, pronunciation, example sentences) |
+| `books/essential-grammar.json` | The grammar book (chapters, rules, tables, common mistakes, practice) |
+| `scripts/import_grammar.py` | Converts an AI-written grammar file into the app's format |
 | `audio/` | Recorded / neural-voice audio clips (optional — the app falls back to the phone's voice) |
 | `scripts/validate.py` | Checks the books for mistakes; runs automatically on every push |
 
@@ -45,6 +47,32 @@ picks it up the next time it opens (or when you pull down on the Learn tab).
   existing one and giving it a new `id`.
 - Bump the top-level `version` (any text, e.g. a date) so you can see in the app's Settings which
   copy it has loaded.
+
+## Grammar book format
+
+`parts → chapters → rules / commonMistakes / practice`. A practice item:
+
+```json
+{
+  "id": "g1.1-2",
+  "type": "choose",
+  "prompt": "___ lägenhet",
+  "options": ["en", "ett"],
+  "answer": "en",
+  "acceptedAnswers": ["en"],
+  "explanation": "Words ending in -het are en-words."
+}
+```
+
+- `type` is one of `fill_in`, `choose`, `translate_to_swedish`, `correct_the_error`, `reorder`
+  (reorder prompts list the words separated by ` / `).
+- `answer` is what the app shows; `acceptedAnswers` is everything it accepts as right. An empty
+  string `""` in `acceptedAnswers` means leaving the gap empty is also right.
+- **Practice `id`s must be unique and should never change** — progress is linked to them.
+- Rules can have an optional `table`: `{ "headers": [...], "rows": [[...], ...] }`.
+
+A new grammar file written by an AI in the original format (`sv`/`pron`/`en`, `key_takeaway`, …)
+can be converted with `python3 scripts/import_grammar.py <file> --output books/<name>.json`.
 
 ## Natural-voice audio
 

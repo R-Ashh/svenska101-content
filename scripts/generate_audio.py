@@ -50,6 +50,13 @@ def collect_texts() -> list[str]:
     for path in sorted(BOOKS.glob("*.json")):
         book = json.loads(path.read_text(encoding="utf-8"))
         for part in book.get("parts", []):
+            # Grammar books: rule examples, corrected mistakes and practice answers.
+            for chapter in part.get("chapters", []):
+                for rule in chapter.get("rules", []):
+                    texts.extend(example["swedish"] for example in rule.get("examples", []))
+                texts.extend(mistake["right"] for mistake in chapter.get("commonMistakes", []))
+                texts.extend(answer for item in chapter.get("practice", [])
+                             if item.get("type") != "choose" for answer in item.get("acceptedAnswers", [])[:1])
             for section in part.get("sections", []):
                 for entry in section.get("entries", []):
                     texts.append(speakable_word(entry["swedish"]))
