@@ -46,6 +46,26 @@ picks it up the next time it opens (or when you pull down on the Learn tab).
 - Bump the top-level `version` (any text, e.g. a date) so you can see in the app's Settings which
   copy it has loaded.
 
+## Natural-voice audio
+
+`scripts/generate_audio.py` creates a clip for every word and example sentence, and links the
+book to `audio/manifest.json`. The app plays these clips and falls back to the phone's voice for
+anything without one. Only missing clips are generated, so re-run it after adding content.
+
+1. Create a free **Speech** resource in the [Azure portal](https://portal.azure.com) (free tier
+   F0: 0.5M characters/month — the whole book is about 30,000).
+2. Run:
+   ```sh
+   export AZURE_SPEECH_KEY=<key>  AZURE_SPEECH_REGION=<region, e.g. swedencentral>
+   python3 scripts/generate_audio.py                 # voice: sv-SE-SofieNeural
+   # or: --voice sv-SE-MattiasNeural (male) / sv-SE-HilleviNeural
+   ```
+3. Commit `audio/` and `books/`, push. In the app: Settings → Natural voice →
+   "Download all for offline" if you want it to work without internet.
+
+Clips are keyed by their exact text, so editing a sentence automatically falls back to the
+phone's voice until you re-run the script. Add `--prune` to delete clips no longer used.
+
 ## Using AI to add content
 
 Paste an existing entry as an example and ask for new entries "in exactly this JSON format,
